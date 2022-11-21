@@ -20,7 +20,7 @@ const App = () => {
     {
       command: "open *",
       callback: (site) => {
-        window.open(`https://${site}`);
+        window.open(`https://${site}.com`);
       },
     },
     {
