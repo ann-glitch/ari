@@ -55,12 +55,14 @@ const App = () => {
   return (
     <div className="container">
       <div className="nav">
-        <h2>
+        <h3>
           Hi I'm Ari, your speech-recognition assistant! Please speak while I
-          jot.
-        </h2>
+          jot. I can open sites as well.
+        </h3>
       </div>
-      <div id="content">{transcript}</div>
+      <div id="content" className="p-text app__flex">
+        {transcript}
+      </div>
     </div>
   );
 };

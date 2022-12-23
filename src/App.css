@@ -13,11 +13,29 @@
   box-shadow: 0 0 20px 8px #d0d0d0;
 } 
 
-h2 {
-  font-weight: 900;
+h3 {
+  font-weight: 800;
   text-align: center;
 }
 
 #content {
   padding-left: 20px;
+}
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ .p-text {
+  font-size: 0.8rem;
+  text-align: left;
+  color: #232425;
+   line-height: 1.5;
+
+  @media screen and (min-width: 2000px) {
+    font-size: 1.75rem;
+  }
 }
