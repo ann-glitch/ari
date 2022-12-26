@@ -7,16 +7,15 @@
 ## install dependencies
 
 ```
-yarn add
+yarn
 ```
+
 ## run in dev mode
 
 ```
 yarn dev
 ```
+
 ---
+
 [Live Site](https://dreamy-pika-785166.netlify.app/)
-
-
-
-
